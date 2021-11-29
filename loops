@@ -1,0 +1,13 @@
+ls = [1, 2, 3]
+sum = 0
+
+for num in ls:
+    sum += num
+    
+print(sum)
+
+
+for i in range(len(ls)):
+    sum += ls[i]
+
+print(sum)
